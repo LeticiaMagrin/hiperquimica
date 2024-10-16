@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'din-hiper';
+    src: url('../../../assets/Fonts/D-DIN.otf' ) format('opentype');
+}
+
+.paragrafo-videos{
+    font-family: 'din-hiper';
+}
+
+.headingVideos{
+    font-family: 'din-hiper';
+}
+
+.link-videos-hq{
+    font-family: 'din-hiper';
+    font-size: 26px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+}

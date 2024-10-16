@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'din-hiper';
+    src: url('../../../assets/Fonts/D-DIN.otf' ) format('opentype');
+}
+
+.heading-story{
+    font-family: 'din-hiper';
+    text-transform: uppercase;
+}
+.text-hiper-story{
+    font-family: 'din-hiper';
+    font-size: 26px;
+    
+}
+
+
+
+ a {
+    text-decoration: none;
+    cursor: pointer;
+}   
+.Storyboard{
+    width: 100%;
+    height: 70%;
+}
+
+.last{
+    height: 80%;
+    width: 100%;
+    /* position: relative;
+    display:flex; */
+    /* bottom: 25%; */
+    margin-bottom: 0;
+    
+}
+
+#Storyboard{
+    background-color: #000000;
+}
+
+@media (max-width: 991px){
+    .Storyboard{
+        width: 100% !important;
+        height: 100% !important;
+        padding-top: 1%;
+    }
+    #Storyboard{
+        padding-top: 3%;
+    }
+    .last{
+        height: 100% !important;
+        width: 107% !important;
+        /* position: relative;
+        display:flex;
+        top: 3%; */
+        padding-bottom: 5%;
+    }
+
+    #first{
+        padding-top: 3%;
+    }
+   
+}
+
+@media (max-width: 480px){
+    .Storyboard{
+        width: 100% !important;
+        height: 100% !important;
+
+    }
+    
+    .last{
+        height: 100% !important;
+        width: 107% !important;
+    }
+    
+}

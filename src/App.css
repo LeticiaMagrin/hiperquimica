@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'd-din-bold';
+  src: url( './assets/Fonts/D-DIN-Bold.otf') format('opentype');
+}
+
 .App {
   text-align: center;
 }

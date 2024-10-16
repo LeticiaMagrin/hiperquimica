@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'din-hiper';
+    src: url('../../../assets/Fonts/D-DIN.otf' ) format('opentype');
+}
+
+.texto-sobre{
+    background-color: #a19c9c;
+    font-family: 'din-hiper';
+}
+
+
+@media (max-width: 600px){
+  .sobre-nos{
+    padding-top: 500px;
+  }
+
+}

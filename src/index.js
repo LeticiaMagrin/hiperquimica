@@ -4,10 +4,70 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+import Home from './pages/home';
+import Contact from './pages/contact';
+import OqueFazemos from './pages/OqueFazemos';
+import QuemSomos from './pages/quemSomos';
+import Animatics from './pages/Animatics';
+import Conteudo from './pages/Conteudo';
+import PaginaIA from './pages/PaginaIa';
+import PaginaStoryBoards from './pages/PaginaStoryBoads';
+
+import {
+  createBrowserRouter,
+  RouterProvider
+} from 'react-router-dom'
+
+
+const router = createBrowserRouter([
+  {
+    path:"/",
+    element: <App/>,
+    children:[
+      {
+        path:"/",
+        element: <Home/>
+      },
+      {
+        path:"contato",
+        element: <Contact/>
+      },
+      {
+        path:"sobre",
+        element: <QuemSomos/>
+      },
+      {
+        path:"o-que-fazemos",
+        element: <OqueFazemos/>
+      },
+      {
+        path:"animatics",
+        element: <Animatics/>
+      },
+      {
+        path:"conteudo",
+        element: <Conteudo/>
+      },
+      {
+        path:"conteudo-IA",
+        element: <PaginaIA/>
+      },
+      {
+        path:"storyboards",
+        element: <PaginaStoryBoards/>
+      }
+
+
+    ]
+  }
+
+])
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

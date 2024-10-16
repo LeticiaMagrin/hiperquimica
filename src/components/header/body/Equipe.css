@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'din-hiper';
+    src: url('../../../assets/Fonts/D-DIN.otf' ) format('opentype');
+}
+@font-face {
+    font-family: 'din-hiper-bold';
+    src: url('../../../assets/Fonts/D-DIN-Bold.otf' ) format('opentype');
+}
+@font-face {
+    font-family: 'din-hiper-italic';
+    src: url('../../../assets/Fonts/D-DIN-Italic.otf' ) format('opentype');
+}
+
+.mainEquipe{
+    background-color:  #e9e9e9d0;
+}
+
+.title-bold{
+    font-family: 'din-hiper-bold';
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.font-medium{
+    font-family: 'din-hiper';
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.font-extra-light{
+    font-family: 'din-hiper-italic';
+    font-size: 18px;
+    margin-top: -5px;
+    
+   
+}

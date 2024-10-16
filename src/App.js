@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+//Components
+// import Headers from './components/header/header/Headers';
+// import BlocoVideo from './components/header/body/BlocoVideo';
+// import Main from './components/header/body/Main';
+// import BlocoAnimatics from './components/header/body/BlocoAnimatics';
+// import BlocoStoryboard from './components/header/body/BlocoStoryboard';
+// import Footer from './components/header/footer/Footer';
+
+
+import { Outlet } from 'react-router-dom';
+//Stylesheet
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+
+      {/* <Headers className="pt-2 " />
+      <BlocoVideo/> */}
+      {/* <Main/>
+      <BlocoAnimatics/>
+      <BlocoStoryboard/>  */}
+      <Outlet/>
+      {/* <Footer/> */}
     </div>
   );
 }

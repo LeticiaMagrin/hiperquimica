@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'din-hiper';
+    src: url('../../../assets/Fonts/D-DIN.otf' ) format('opentype');
+}
+
+#main-hiperquimica{
+    font-family: 'din-hiper';
+    font-size: 26px;
+}
+
+.hiperq-link{
+    text-decoration: none !important;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.general{
+    background-color: black;
+}
+.future{
+    font-family: 'din-hiper';
+    font-weight: Bolder;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#f36f21 ;
+}
+
+
+ 
+.vid{
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width:100%;
+    column-width:100%;
+    /* padding: 0.8rem; */
+}
+
+.vid .video{
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+.vid .video:hover{
+    transform: scale(0.98);
+}
+
+@media (max-width: 991px){
+    .vid{
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        margin-bottom: 5px !important;
+    }
+
+    .seloIa{
+
+        width: 50% !important;
+        height: 50% !important;
+        padding-top: 18px !important;
+    }
+}
+
+@media (max-width: 480px){
+    .vid{
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+
+    #future{
+        height: 25px
+    }
+
+    .future{
+       font-size: 22px;
+       bottom: 49%;
+       position: relative;
+       
+           
+    }
+    .seloIa{
+
+        width: 50% !important;
+        height: 50% !important;
+    }
+}
+
+
+  

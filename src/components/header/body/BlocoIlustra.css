@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'din-hiper';
+    src: url('../../../assets/Fonts/D-DIN.otf' ) format('opentype');
+}
+
+.titulo-anima{
+        font-family: 'din-hiper';
+    
+}
+
+.titulo-ilustra, .link-ilustra{
+    font-family: 'din-hiper';
+    font-size: 26px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+}

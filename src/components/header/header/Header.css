@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'din-hiper';
+    src: url('../../../assets/Fonts/D-DIN.otf' ) format('opentype');
+}
+
+#cabecalho-hiper{
+    font-family: 'din-hiper', sans-serif !important;
+   font-size: 18px;
+}
+
+#heads{
+    background-color: #f36f21 !important;
+}
+
+.link1{
+    width: 25% !important;
+    height: 30% !important;
+}
+
+
+.logoHiper{
+    width: 110% !important;
+    height: 40% !important;
+}
+
+@media (max-width: 991px){
+
+    .link1{
+    width: 25% !important;
+    height: 30% !important;
+}
+    .logoHiper{
+    width: 40% !important;
+    height: 30% !important;
+   }
+}
+
+@media (max-width: 480px){
+    .logoHiper{
+        width: 90% !important;
+        height: 30% !important;
+       }
+
+       .link1{
+        width: 50% !important;
+        height: 60% !important;
+    }
+}
