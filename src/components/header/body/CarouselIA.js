@@ -5,15 +5,15 @@ import { DefaultPlayer as Video} from 'react-html5video';
 import 'react-html5video/dist/styles.css'
 
 // //media
-import { videos, videos1 ,videos2, filteredVideos } from '../../../Media/Media';
+import { videos, videosIa , filteredVideosIa } from '../../../Media/Media';
 
 
 //CSS
 import './VideoCarousel.css'
 
-function VidCarrossel(){
+function CarouselIA(){
  const [model, setModel] = useState(false);
- const data = videos2.slice(0,-1)
+ const data = videosIa.slice(0,-1)
 
     return(
 
@@ -41,4 +41,4 @@ function VidCarrossel(){
 
 }
 
-export default VidCarrossel;
+export default CarouselIA;

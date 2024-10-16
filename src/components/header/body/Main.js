@@ -1,4 +1,4 @@
-import { videos, videos1, videos2 }  from "../../../Media/Media";
+import { videos, videos1, videos2, videosIa }  from "../../../Media/Media";
 import { images } from "../../../Media/Media";
 
 // video Plaer
@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 //css
 import './Main.css'
-import VidCarrossel from "./VidCarrossel";
+import CarouselIA from "./CarouselIA";
 
 function Main(){
     const{
@@ -71,7 +71,7 @@ function Main(){
       </div>
       <div className="container">
   <div className="row pb-6 ">
-  <VidCarrossel className="" videos={videos1}/>
+  <CarouselIA className="" videos={videosIa}/>
   </div>
 </div>
   </div>

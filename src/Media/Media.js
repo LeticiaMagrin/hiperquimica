@@ -28,6 +28,10 @@ import McCann from "../assets/Img/mccan.jpeg"
 
 import videoia1 from '../assets/Video/mushroom_cloud.mp4'
 import videoia2 from '../assets/Video/end_of_the_day.mp4'
+import videoia3 from '../assets/Video/rotate.mp4'
+import videoia4 from '../assets/Video/car_speed.mp4'
+import videoia5 from '../assets/Video/close_legs.mp4'
+
 
 //Equipe
 
@@ -53,7 +57,10 @@ export const videos = {
     Batavo_PenseZero_Animatic: Batavo_PenseZero_Animatic,
     Claro_Narramatic_Linha2_Ref2: Claro_Narramatic_Linha2_Ref2,
     Mushroom_Cloud: videoia1,
-    End_day: videoia2
+    End_day: videoia2,
+    Rotate: videoia3,
+    Car_Speed: videoia4,
+    Close_Legs: videoia5
 
 }
 
@@ -100,9 +107,39 @@ export const videos2 = [
      
       ] 
 
-      export function filteredVideos(videos2){
+      export function filteredVideosIa(videos2){
         return videos2.slice(0 ,-1);
     }
+
+    export const videosIa = [
+    
+      {
+  
+      id: 1,
+      videoName: videoia1,
+    },
+      {
+  
+      id: 2,
+      videoName: videoia2,
+    },
+      {
+  
+      id: 3,
+      videoName: videoia3,
+    },
+      {
+  
+      id: 4,
+      videoName: videoia4,
+    },
+   
+    ] 
+
+    export function filteredVideos(videosIa){
+      return videosIa.slice(0 ,-1);
+  }
+
 
 
 //imagens
