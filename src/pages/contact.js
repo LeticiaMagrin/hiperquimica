@@ -20,9 +20,7 @@ function Contact() {
     
 
       <Headers className="pt-2 " />
-      <h1>
-        Formulário aqui
-      </h1>
+      
       <Footer className="bg-dark"/>
     </div>
   );

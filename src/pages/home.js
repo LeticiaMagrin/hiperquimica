@@ -5,7 +5,7 @@ import Main from '../components/header/body/Main';
 import BlocoAnimatics from '../components/header/body/BlocoAnimatics';
 import BlocoStoryboard from '../components/header/body/BlocoStoryboard';
 import BlocoVideos from '../components/header/body/BlocoVideos';
-import BlocoIlustra from '../components/header/body/BlocoIlustra';
+// import BlocoIlustra from '../components/header/body/BlocoIlustra';
 import Sobre from '../components/header/body/Sobre';
 import Clientes from '../components/header/body/Clientes';
 import Equipe from '../components/header/body/Equipe';
@@ -25,7 +25,7 @@ function Home() {
       <BlocoAnimatics/>
       <BlocoStoryboard/>
       <BlocoVideos/>
-      <BlocoIlustra/>
+      {/* <BlocoIlustra/> */}
       <Sobre/>
       <Clientes/>
       <Equipe/>

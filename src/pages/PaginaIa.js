@@ -1,10 +1,18 @@
+import Headers from "../components/header/header/Headers";
+import Footer from "../components/header/footer/Footer";
+
+import Main2 from "../components/header/body/Main2";
+
 function PaginaIA(){
 
     return(
         <>
-        <h1>
-            Conteúdo de IA aqui
-        </h1>
+        
+            <Headers/>
+            <Main2/>
+            <Footer/>
+        
+        
         </>
 
     )

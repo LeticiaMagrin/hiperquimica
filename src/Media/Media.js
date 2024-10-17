@@ -31,7 +31,11 @@ import videoia2 from '../assets/Video/end_of_the_day.mp4'
 import videoia3 from '../assets/Video/rotate.mp4'
 import videoia4 from '../assets/Video/car_speed.mp4'
 import videoia5 from '../assets/Video/close_legs.mp4'
+import videoia6 from '../assets/Video/garota-xicara.mp4'
 
+//img ia
+
+import Farm from "../assets/Img/farm_men.png"
 
 //Equipe
 
@@ -60,7 +64,8 @@ export const videos = {
     End_day: videoia2,
     Rotate: videoia3,
     Car_Speed: videoia4,
-    Close_Legs: videoia5
+    Close_Legs: videoia5,
+    Garota:   videoia6
 
 }
 
@@ -133,14 +138,50 @@ export const videos2 = [
       id: 4,
       videoName: videoia4,
     },
+
    
     ] 
 
     export function filteredVideos(videosIa){
       return videosIa.slice(0 ,-1);
   }
+  
+  export const videosIa2 = [
+  
+    {
+
+    id: 1,
+    videoName: videoia4,
+  },
+    {
+
+    id: 2,
+    videoName: videoia5,
+  },
+    {
+
+    id: 3,
+    videoName: videoia6,
+  },
+  
+    {
+
+    id: 4,
+    videoName: videoia6,
+  },
+  
+ 
+  ] 
+
+  export function filteredVideosIa2(videosIa2){
+    return videosIa2.slice(0 ,-1);
+}
 
 
+
+export const imgIa = {
+   Farm : Farm
+}
 
 //imagens
 export const images = {

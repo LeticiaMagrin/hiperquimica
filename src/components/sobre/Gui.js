@@ -1,4 +1,10 @@
+import { hiperquimmicaEquipe } from "../../Media/Media";
+
 function Guilherme(){
+
+  const{
+    Guilherme
+  } = hiperquimmicaEquipe;
 
     return(
         
@@ -9,7 +15,7 @@ function Guilherme(){
             <div class="card-body">
               <h5 class="card-title pt-2">Gui Fonseca</h5>
               <div class="col-md-8">
-                <img src="..." class="card-img pt-5" alt="..."/>
+                <img src={Guilherme} class="card-img pt-5" alt="..."/>
              </div>
             </div>
           </div>

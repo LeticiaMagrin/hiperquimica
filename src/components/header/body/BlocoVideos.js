@@ -1,9 +1,11 @@
-import { videos, videos2, filteredVideos } from "../../../Media/Media"
-import VidCarrossel from "./VidCarrossel"
+import {  videosIa2, videos2 , videos, imgIa} from "../../../Media/Media"
+
 import { Link } from "react-router-dom";
 
+import CarouselIA2 from "./CaroulselIA2";
+
 //video Player
-import { DefaultPlayer as Video} from 'react-html5video';
+
 import 'react-html5video/dist/styles.css'
 
 //css 
@@ -11,13 +13,12 @@ import './BlocoVideos.css'
 
 function BlocoVideos(){
 
-  const{
-    ArtePremium_Lysol,
-    Ipiranga_30_Versao02_18hs,
-    Batavo_PenseZero_Animatic,
-    Claro_Narramatic_Linha2_Ref2
 
-  } = videos
+  const{
+     
+    Farm,
+
+  } = imgIa
 
     return(
         <>
@@ -35,32 +36,25 @@ function BlocoVideos(){
         </Link>
 
       </div>
-      <div className="col-12 col-sm-8 col-lg-7 ">
-      <div className="embed-responsive embed-responsive-16by9 ">
-      <div className='vid'>
+      <div className="col-6 col-sm-8 col-lg-6 ">
       
-      <div className='video-container pt-4'>
-        <Video
-        
-        >
-          {/* <source src={Claro_Narramatic_Linha2_Ref2} type='video/webm'/> */}
-        </Video>
+      
+   
+       <img className="farm" src={Farm}/>
 
-      </div>
-    </div>
-      {/* <iframe
-      src={Claro_Narramatic_Linha2_Ref2}
-      allowfullscreen
-      style={{ width: '120%', height: '400px' }}
-      /> */}
+      
+ 
+ 
+
         </div> 
       
         
       </div>
-      {/* <VidCarrossel videos={videos2}/> */}
+      <CarouselIA2 videos={videosIa2}/>
     </div>
   </div>
-    </div>
+
+    
         </>
     )
 }
