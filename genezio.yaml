@@ -1,0 +1,10 @@
+frontend:
+    path: .
+    publish: build
+    scripts:
+        build: npm run build
+        deploy: npm install
+    subdomain: hiperquimica
+name: hiperquimica
+region: eu-central-1
+yamlVersion: 2
