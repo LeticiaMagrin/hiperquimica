@@ -36,29 +36,29 @@ function Clientes(){
         <div class="row mx-5">
         <div class="col-12 col-lg-4 ">
             
-        <img className="client" src={DPZ}/>
+        <img alt="client" className="client" src={DPZ}/>
         
         </div>
         <div class="col-12 col-lg-4 ">
-        <img className="client" src={BBDO}/>
+        <img alt="client" className="client" src={BBDO}/>
            
         </div>
         <div class="col-12 col-lg-4">
             
-        <img className="client" src={HAVAS}/>
+        <img alt="client" className="client" src={HAVAS}/>
         </div>
 
         </div>
         <div className="row mx-5">
         <div class="col-12 col-lg-4 ">
-        <img className="client publicis" src={Publicis}/>
+        <img alt="client" className="client publicis" src={Publicis}/>
         </div>
         <div class="col-12 col-lg-4 ">
-        <img className="client dm9" src={DM9}/>
+        <img alt="client" className="client dm9" src={DM9}/>
             
         </div>
         <div class="col-12 col-lg-4 ">
-        <img className="client" src={TBWA}/>
+        <img alt="client" className="client" src={TBWA}/>
             
         </div>
         
@@ -67,34 +67,34 @@ function Clientes(){
         </div>
         <div className="row mx-5 py-2">
         <div class="col-12 col-lg-4">
-        <img className="client" src={McCann}/>
+        <img alt="client" className="client" src={McCann}/>
         </div>
         <div class="col-12 col-lg-4">
         
-        <img className="client jwt pb-2" src={JWT}/>   
+        <img alt="client" className="client jwt pb-2" src={JWT}/>   
         </div>
         <div class="col-12 col-lg-4 ">
            
-        <img className="client" src={FCB}/>  
+        <img alt="client" className="client" src={FCB}/>  
         </div>
       
         
         <div className="row mx-0">
             <div className="col-12 col-lg-4">
             
-            <img className="client" src={Draftline}/>
+            <img alt="client" className="client" src={Draftline}/>
            
             </div>
             <div class="col-12 col-lg-4 pt-2">
-            <img className="client yer" src={YER}/>
+            <img alt="client" className="client yer" src={YER}/>
             </div>
             <div class="col-12 col-lg-4 ">
-            <img className="client" src={Talent}/>
+            <img alt="client" className="client" src={Talent}/>
             </div>
             </div>
             <div className="row-mx-5">
                 <div class="col-12 col-lg-12 pl-2">
-                    <img className="client" src={Paranoid}/>
+                    <img alt="client" className="client" src={Paranoid}/>
                 </div>
             </div>
         </div>

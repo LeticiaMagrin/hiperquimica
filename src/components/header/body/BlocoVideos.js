@@ -1,4 +1,4 @@
-import {  videosIa2, videos2 , videos, imgIa} from "../../../Media/Media"
+import {  videosIa2,  imgIa} from "../../../Media/Media"
 
 import { Link } from "react-router-dom";
 
@@ -40,7 +40,7 @@ function BlocoVideos(){
       
       
    
-       <img className="farm" src={Farm}/>
+       <img className="farm" alt="farm" src={Farm}/>
 
       
  

@@ -1,11 +1,11 @@
-import React, { useState, useRef } from 'react';
+import React, { useState} from 'react';
 
 // video Plaer
 import { DefaultPlayer as Video} from 'react-html5video';
 import 'react-html5video/dist/styles.css'
 
 // //media
-import { videos, videosIa , filteredVideosIa } from '../../../Media/Media';
+import {  videosIa } from '../../../Media/Media';
 
 
 //CSS

@@ -34,16 +34,16 @@ function StoryBoards2(){
                 </Link> 
               </div>
               <div class="col-lg-4 col-sm-12 pt-sm-0 pt-lg-5 ">
-                <img className="Storyboard" id="first" src={ Story12 }/>
+                <img alt="storyboard" className="Storyboard" id="first" src={ Story12 }/>
               </div>
 
               <div class="col-lg-4 col-sm-12 pt-sm-0 pt-lg-5">
-                <img className="Storyboard" src={ Story13 }/>
+                <img alt="storyboard" className="Storyboard" src={ Story13 }/>
                
               </div>
               <div className="row justify-content-end">
               <div class="col-lg-8 col-sm-12 ">
-                <img className="last" src={ Story14 }/>
+                <img alt="storyboard" className="last" src={ Story14 }/>
               </div>
               
               </div>

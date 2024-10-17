@@ -12,7 +12,7 @@ import {  videosIa2  } from '../../../Media/Media';
 import './VideoCarousel.css'
 
 function CarouselIA2(){
- const [model, setModel] = useState(false);
+ const [model] = useState(false);
  const data = videosIa2.slice(0,-1)
 
     return(

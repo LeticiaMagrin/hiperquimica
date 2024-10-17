@@ -34,7 +34,7 @@ function Equipe(){
     
         <div className="row mx-4">
         <div className="col-lg-4 ">
-            <img className='rounded' width="320" height="370" src={Guilherme}></img>
+            <img className='rounded' width="320" height="370" src={Guilherme}/>
           
             <h6 className="fw-normal pt-2 title-bold">Guilherme Fonseca</h6>
             <p className='font-medium'>MBA em IA, Roteiro e Cinema FAAP</p>
@@ -42,7 +42,7 @@ function Equipe(){
         
         </div>
         <div className="col-lg-4">
-            <img className='rounded' width="320" height="370" src={Mauro}></img>
+            <img className='rounded' width="320" height="370" src={Mauro}/>
 
             <h6 className="fw-normal pt-2 title-bold">Mauro Salgado</h6>
             <p className='font-medium'>Design de Animação</p>
@@ -50,7 +50,7 @@ function Equipe(){
         
         </div>
         <div className="col-lg-4">
-            <img className='rounded' width="320" height="370" src={Marina}></img>
+            <img className='rounded' width="320" height="370" src={Marina}/>
 
             <h6 className="fw-normal pt-2 title-bold">Marina Marques</h6>
             <p className='font-medium'>Ilustração autoral, Bacharel em Design</p>
@@ -59,21 +59,21 @@ function Equipe(){
         </div>
 
         <div className="col-lg-4">
-            <img className='rounded' width="320" height="370" src={Val}></img>
+            <img className='rounded' width="320" height="370" src={Val}/>
 
             <h6 className="fw-normal pt-2 title-bold">Val Junior</h6>
             <p className='font-extra-light'>Fine Art e Ilustração</p>
         
         </div>
         <div className="col-lg-4">
-            <img className='rounded' width="320" height="370" src={Clara}></img>
+            <img className='rounded' width="320" height="370" src={Clara}/>
 
             <h6 className="fw-normal pt-2 title-bold">Clara Pasquini</h6>
             <p className='font-extra-light'>Character Design</p>
         
         </div>
         <div className="col-lg-4">
-            <img className='rounded' width="320" height="370" src={Matheus}></img>
+            <img className='rounded' width="320" height="370" src={Matheus}/>
 
             <h6 className="fw-normal pt-2 title-bold">Matheus Dornella</h6>
             <p className='font-extra-light'>Prompt Engineer</p>

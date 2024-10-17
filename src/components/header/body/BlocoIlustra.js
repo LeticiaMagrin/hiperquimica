@@ -4,15 +4,15 @@ import "./BlocoIlustra.css"
 import { Link } from "react-router-dom"
 
 //media
-import { images } from '../../../Media/Media'
+// import { images } from '../../../Media/Media'
 
 function BlocoIlustra(){
 
-  const{
-    Story12,
-    Story13,
-    Story14,
-  } = images
+  // const{
+  //   Story12,
+  //   Story13,
+  //   Story14,
+  // } = images
 
     return (
 

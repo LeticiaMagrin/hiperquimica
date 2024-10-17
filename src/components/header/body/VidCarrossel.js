@@ -1,18 +1,18 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 
 // video Plaer
 import { DefaultPlayer as Video} from 'react-html5video';
 import 'react-html5video/dist/styles.css'
 
 // //media
-import { videos, videos1 ,videos2, filteredVideos } from '../../../Media/Media';
+import { videos2 } from '../../../Media/Media';
 
 
 //CSS
 import './VideoCarousel.css'
 
 function VidCarrossel(){
- const [model, setModel] = useState(false);
+ const [model] = useState(false);
  const data = videos2.slice(0,-1)
 
     return(

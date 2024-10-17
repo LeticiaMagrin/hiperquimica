@@ -1,4 +1,4 @@
-import { videos, videos1, videos2, videosIa }  from "../../../Media/Media";
+import { videos, videosIa }  from "../../../Media/Media";
 import { images } from "../../../Media/Media";
 
 // video Plaer

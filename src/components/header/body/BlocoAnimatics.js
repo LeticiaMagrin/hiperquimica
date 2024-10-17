@@ -1,4 +1,4 @@
-import { videos, videos2, filteredVideos } from "../../../Media/Media"
+import { videos, videos2 } from "../../../Media/Media"
 import VidCarrossel from "./VidCarrossel"
 import { Link } from "react-router-dom";
 
@@ -12,9 +12,7 @@ import './BlocoAnimatics.css'
 function BlocoAnimatics(){
 
   const{
-    ArtePremium_Lysol,
-    Ipiranga_30_Versao02_18hs,
-    Batavo_PenseZero_Animatic,
+  
     Claro_Narramatic_Linha2_Ref2
 
   } = videos
