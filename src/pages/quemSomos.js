@@ -1,13 +1,13 @@
 import Headers from "../components/header/header/Headers";
 import Footer from "../components/header/footer/Footer";
-// import Guilherme from "../components/sobre/Gui";
+import Guilherme from "../components/sobre/Gui";
 
 function QuemSomos(){
     return(
         <>
         <Headers/>
         
-        {/* <Guilherme/> */}
+        <Guilherme/>
        
 {/*     
 
