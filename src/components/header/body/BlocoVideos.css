@@ -22,3 +22,16 @@
 .farm{
     width: 100%;
 }
+
+
+@media (max-width: 480px){
+    .farm{
+    width: 210%;
+    height: 100%;
+    margin-left: 5px;
+    padding-top: 50px;
+   
+      
+        
+    }
+}
