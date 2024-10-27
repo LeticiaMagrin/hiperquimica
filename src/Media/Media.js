@@ -46,6 +46,16 @@ import Val from "../assets/Img/Val.jpeg"
 import Clara from "../assets/Img/Clara.jpeg"
 import Matheus from "../assets/Img/Matheus.jpeg"
 
+
+// animatics
+
+import Coppertone from "../assets/Video/COPPERTONE_2017_Baixa.mp4"
+import Cheetos from "../assets/Video/Cheetos_ING_19Agosto.mp4"
+import Jogo from "../assets/Video/JOGO_13.mp4"
+import Mae from "../assets/Video/MAE_21.mp4"
+import Burro from "../assets/Video/BurroV11_15_07_Fcb_v2_ok.mp4"
+import Beats from "../assets/Video/BeatsV05.mp4"
+
 const Media = () => {
 
 
@@ -87,6 +97,7 @@ export const videos1 =[
       },
 ]
 
+
 export const videos2 = [
     
         {
@@ -115,8 +126,63 @@ export const videos2 = [
       export function filteredVideosIa(videos2){
         return videos2.slice(0 ,-1);
     }
+export const videos3 = [
+    
+        {
+    
+        id: 1,
+        videoName: Coppertone,
+      },
+        {
+    
+        id: 2,
+        videoName: Cheetos,
+      },
+        {
+    
+        id: 3,
+        videoName: Jogo,
+      },
+        {
+    
+        id: 4,
+        videoName: Mae,
+      },
+     
+      ] 
 
-    export const videosIa = [
+      export function filteredVideos3(videos3){
+        return videos3.slice(0 ,-1);
+    }
+export const videos4 = [
+    
+        {
+    
+        id: 1,
+        videoName: Mae,
+      },
+        {
+    
+        id: 2,
+        videoName: Burro,
+      },
+        {
+    
+        id: 3,
+        videoName: Beats,
+      },
+        {
+    
+        id: 4,
+        videoName: Claro_Narramatic_Linha2_Ref2,
+      },
+     
+      ] 
+
+      export function filteredVideos4(videos4){
+        return videos4.slice(0 ,-1);
+    }
+export const videosIa = [
     
       {
   
