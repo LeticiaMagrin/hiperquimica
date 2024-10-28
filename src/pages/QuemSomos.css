@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'din-hiper';
+    src: url('../assets/Fonts/D-DIN.otf' ) format('opentype');
+}
+
+h5{
+    font-family: 'din-hiper';
+    text-transform: uppercase;
+    font-size: 28px;
+
+}
+
+p{
+    font-family: 'din-hiper';
+
+}

@@ -1,5 +1,6 @@
 //Components
 import Headers from '../components/header/header/Headers';
+import Form from './Form';
 // import BlocoVideo from '../components/header/body/BlocoVideo';
 // import Main from '../components/header/body/Main';
 // import BlocoAnimatics from '../components/header/body/BlocoAnimatics';
@@ -21,6 +22,7 @@ function Contact() {
 
       <Headers className="pt-2 " />
       
+      <Form/>
       <Footer className="bg-dark"/>
     </div>
   );

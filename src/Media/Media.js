@@ -56,6 +56,16 @@ import Mae from "../assets/Video/MAE_21.mp4"
 import Burro from "../assets/Video/BurroV11_15_07_Fcb_v2_ok.mp4"
 import Beats from "../assets/Video/BeatsV05.mp4"
 
+//storyboards
+
+import Story10 from "../assets/Img/story10.jpg";
+import Story15 from "../assets/Img/story15.jpg";
+import Story16 from "../assets/Img/story16.jpg";
+import Story17 from "../assets/Img/story17.jpg";
+import Story18 from "../assets/Img/story18.jpg";
+
+
+
 const Media = () => {
 
 
@@ -257,6 +267,11 @@ export const images = {
     Story12: Story12,
     Story13: Story13,
     Story14: Story14,
+    Story10: Story10,
+    Story15: Story15,
+    Story16: Story16,
+    Story17: Story17,
+    Story18: Story18,
     DPZ: DPZ,
     BBDO: BBDO,
     Draftline: Draftline,

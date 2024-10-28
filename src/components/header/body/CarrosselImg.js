@@ -1,13 +1,24 @@
 import React, { useEffect, useState } from 'react';
+import { images } from '../../../Media/Media'
 import './CarrosselImg.css';
 function CarrosselImg() {
+
+  
+  const{
+    Story10,
+    Story15,
+    Story16,
+    Story17,
+    Story18,
+  } = images
+
   
   const imgs=[
-    {id:0,value:"https://picsum.photos/200"},
-    {id:1,value:"https://picsum.photos/200?random=1"},
-    {id:2,value:"https://picsum.photos/200?random=2"},
-    {id:3,value:"https://picsum.photos/200?random=3"},
-    {id:4,value:"https://picsum.photos/200?random=4"},
+    {id:0,value: Story10},
+    {id:1,value: Story15},
+    {id:2,value: Story16},
+    {id:3,value: Story17},
+    {id:4,value: Story18},
   ]
   const [wordData,setWordData]=useState(imgs[0])
   const [val,setVal] = useState(0)
