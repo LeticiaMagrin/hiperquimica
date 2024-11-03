@@ -34,8 +34,20 @@ function Main(){
        <div className="general">
 
       <div className="container col-xxl-8 px-2 py-1 ">
-    <div className="row flex-lg-row-reverse align-items-center  py-5">
-      <div className="col-12 col-sm-8 col-lg-6 ">
+    <div className="row  align-items-center  py-5">
+      <div class="col-lg-5 text-lg-start text-sm-center" id="main-hiperquimica">
+        <h1 class="display-4 fw-bold lh-1 "></h1>
+        <img className="pb-4 seloIa  pl-2" src={SeloIA} style={{ width: '60%', height: '60%' }}/>
+        <p class="col-lg-10 text-light  text-start text-ia-hiper">A HIPERQUIMICA está utilizando sua expertise em IAs para criar storytelling realista de impacto, transformando ideias em narrativas poderosas</p>
+       
+
+        <Link to='/conteudo-IA' href="" className="hiperq-link text-start">Clique aqui  &nbsp;
+        <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m9 5 7 7-7 7"/></svg>
+
+        </Link>
+      
+      </div>
+      <div className="col-12 col-sm-8 col-lg-7 pt-5">
       <div className="embed-responsive embed-responsive-16by9 ">
     
         
@@ -55,21 +67,9 @@ function Main(){
    
         
       </div>
-      <div class="col-lg-5 text-lg-start text-sm-center" id="main-hiperquimica">
-        <h1 class="display-4 fw-bold lh-1 "></h1>
-        <img className="pb-4 seloIa" src={SeloIA} style={{ width: '60%', height: '60%' }}/>
-        <p class=" text-light">A HIPERQUIMICA está utilizando sua expertise em IAs para criar storytelling realista de impacto, transformando ideias em narrativas poderosas</p>
-       
-
-        <Link to='/conteudo-IA' href="" className="hiperq-link">Clique aqui  &nbsp;
-        <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m9 5 7 7-7 7"/></svg>
-
-        </Link>
-      
-      </div>
     </div>
       </div>
-      <div className="container">
+      <div className="container com-videos">
   <div className="row pb-6 ">
   <CarouselIA className="" videos={videosIa}/>
   </div>

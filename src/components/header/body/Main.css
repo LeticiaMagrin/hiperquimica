@@ -6,6 +6,7 @@
 #main-hiperquimica{
     font-family: 'din-hiper';
     font-size: 26px;
+    margin-left: 0 !important;
 }
 
 .hiperq-link{
@@ -26,8 +27,14 @@
     color:#f36f21 ;
 }
 
-
+.seloIa{
+    padding-left: 2em;
+}
  
+.vid-pagina{
+ margin-top: 20%;
+}
+
 .vid{
     -webkit-column-count: 1;
     -moz-column-count: 1;
@@ -62,7 +69,15 @@
         width: 50% !important;
         height: 50% !important;
         padding-top: 18px !important;
+        padding-left: 0;
+    
     }
+
+    .vid-pagina{
+        margin-top: 0;
+       }
+       
+
 }
 
 @media (max-width: 480px){
@@ -88,9 +103,27 @@
     }
     .seloIa{
 
-        width: 50% !important;
-        height: 50% !important;
+        width: 42% !important;
+        height: 42% !important;
     }
+
+    .com-videos{
+        display: none;
+    }
+
+    #main-hiperquimica{
+        font-family: 'din-hiper';
+        font-size: 22px;
+        margin-left: 0 !important;
+    }
+
+    .text-ia-hiper{
+        margin-left: 4% !important;
+    }
+
+    .vid-pagina{
+        margin-top: 0;
+       }
 }
 
 

@@ -7,14 +7,14 @@ import './BlocoVideo.css'
 
 function BlocoVideo(){
     const{
-        videoHome,
+        videoHome1,
     } = videos
 
 
     return(
 
-      <div className="main">
-        <video src={videoHome} autoPlay loop muted />
+      <div className="main1">
+        <video src={videoHome1} autoPlay loop muted />
 
       </div>
     )

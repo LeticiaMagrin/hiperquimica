@@ -1,4 +1,5 @@
 //imports
+import videoHome1 from "../assets/Video/video1.1.mp4"
 import videoHome from "../assets/Video/video1.mp4"
 import ArtePremium_Lysol from "../assets/Video/ArtePremium_Lysol.mp4"
 import Ipiranga_30_Versao02_18hs from "../assets/Video/Ipiranga_30_Versao02_18hs.mp4"
@@ -29,10 +30,10 @@ import McCann from "../assets/Img/mccan.jpeg"
 import videoia1 from '../assets/Video/mushroom_cloud.mp4'
 import videoia2 from '../assets/Video/end_of_the_day.mp4'
 import videoia3 from '../assets/Video/rotate.mp4'
-import videoia4 from '../assets/Video/car_speed.mp4'
-import videoia5 from '../assets/Video/close_legs.mp4'
-import videoia6 from '../assets/Video/garota-xicara.mp4'
-
+import videoia4 from '../assets/Video/05-VW_AMAROK.mp4'
+import videoia5 from '../assets/Video/06-DM9_Ifood.mp4'
+import videoia6 from '../assets/Video/07-Narramatic_03_Avon_.mp4'
+import Ipiranga from '../assets/Video/04-POSTOS_IPRIRANGA.mp4'
 //img ia
 
 import Farm from "../assets/Img/farm_men.png"
@@ -75,8 +76,10 @@ const Media = () => {
 
 //videos
 export const videos = {
-    videoHome: videoHome,
-    ArtePremium_Lysol: ArtePremium_Lysol,
+  videoHome: videoHome,
+  videoHome1: videoHome1,
+  Ipiranga: Ipiranga,
+  ArtePremium_Lysol: ArtePremium_Lysol,
     Ipiranga_30_Versao02_18hs: Ipiranga_30_Versao02_18hs,
     Batavo_PenseZero_Animatic: Batavo_PenseZero_Animatic,
     Claro_Narramatic_Linha2_Ref2: Claro_Narramatic_Linha2_Ref2,
