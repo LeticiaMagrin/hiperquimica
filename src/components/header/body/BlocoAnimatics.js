@@ -24,14 +24,17 @@ function BlocoAnimatics(){
 
     <div className="container col-xl-10 col-xxl-8  py-2">
     <div className="row align-items-center g-lg-5 py-5">
-      <div className="col-lg-5 text-center text-lg-start" id="hiperquimica-animatics">
-        <h2 className="display-4 fw-bold lh-1 text-light mb-3">2D ANIMATIC</h2>
+      <div className="col-lg-5 text-start" id="hiperquimica-animatics">
+        <h2 className="display-4 fw-bold lh-1 text-light mb-3 titulo-animatics">2D ANIMATIC</h2>
         <p className="col-lg-10 fs-4 text-light animatics-texto-hiper">Roteiros são transformados em cenas animadas com ilustrações originais que capturam a essência de cada narrativa. Roteiros que ganham vida quadro a quadro</p>
        
-        <Link to="/animatics" className="text-light">Clique aqui &nbsp; 
+      
+
+        <Link to="/animatics" className="click text-light  ">Clique aqui &nbsp; 
         <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m9 5 7 7-7 7"/></svg>
 
         </Link>
+      
       </div>
       <div className="col-12 col-sm-8 col-lg-7 ">
       <div className="embed-responsive embed-responsive-16by9 ">
@@ -46,16 +49,15 @@ function BlocoAnimatics(){
 
       </div>
     </div>
-      {/* <iframe
-      src={Claro_Narramatic_Linha2_Ref2}
-      allowfullscreen
-      style={{ width: '120%', height: '400px' }}
-      /> */}
+     
         </div> 
       
         
       </div>
-      <VidCarrossel videos={videos2}/>
+      <div className="carousel-vid-anima">
+
+      <VidCarrossel  videos={videos2}/>
+      </div>
     </div>
   </div>
     </div>

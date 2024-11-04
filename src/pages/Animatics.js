@@ -1,5 +1,5 @@
 import Headers from "../components/header/header/Headers";
-import Animatics2 from "../components/header/body/Animatics2";
+import Animatics22 from "../components/header/body/Animatics2.2";
 import Footer from "../components/header/footer/Footer";
 
 
@@ -7,7 +7,7 @@ function Animatics(){
     return (
         <>
         <Headers/>
-        <Animatics2/>
+        <Animatics22/>
         <Footer/>
         </>
     )

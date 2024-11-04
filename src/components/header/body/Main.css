@@ -9,6 +9,12 @@
     margin-left: 0 !important;
 }
 
+#main-hiperquimica-sec{
+    font-family: 'din-hiper';
+    font-size: 16px !important;
+    margin-left: 0 !important;
+}
+
 .hiperq-link{
     text-decoration: none !important;
     color: #ffffff;
@@ -31,9 +37,9 @@
     padding-left: 2em;
 }
  
-.vid-pagina{
+/* .vid-pagina{
  margin-top: 20%;
-}
+} */
 
 .vid{
     -webkit-column-count: 1;
@@ -117,7 +123,9 @@
         margin-left: 0 !important;
     }
 
-    .text-ia-hiper{
+    
+
+    .text-ia-hiper, .text-ia-hiper2{
         margin-left: 4% !important;
     }
 

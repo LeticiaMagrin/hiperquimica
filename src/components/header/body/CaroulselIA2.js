@@ -25,7 +25,8 @@ function CarouselIA2(){
             <div className='video-container'>
               <Video
               style={{width: '100%'}}
-              autoPlay={model}>
+              autoPlay={model}
+              >
                 <source src={item.videoName} type='video/webm'/>
               </Video>
 

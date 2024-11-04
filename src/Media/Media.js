@@ -1,10 +1,10 @@
 //imports
 import videoHome1 from "../assets/Video/video1.1.mp4"
 import videoHome from "../assets/Video/video1.mp4"
-import ArtePremium_Lysol from "../assets/Video/ArtePremium_Lysol.mp4"
-import Ipiranga_30_Versao02_18hs from "../assets/Video/Ipiranga_30_Versao02_18hs.mp4"
-import Batavo_PenseZero_Animatic from "../assets/Video/Batavo_PenseZero_Animatic.mp4"
-import Claro_Narramatic_Linha2_Ref2 from "../assets/Video/Claro_Narramatic_Linha2_Ref2.mp4"
+import ArtePremium_Lysol from "../assets/Video/08_ANIMATIC_02.mp4"
+import Ipiranga_30_Versao02_18hs from "../assets/Video/09_ANIMATIC_03.mp4"
+import Batavo_PenseZero_Animatic from "../assets/Video/10_ANIMATIC_08_ClubSocial_1.mp4"
+import Claro_Narramatic_Linha2_Ref2 from "../assets/Video/03-Probio2_Amigas.mp4"
 import marca1 from "../assets/Img/marca1.1.png"
 import marca2 from "../assets/Img/marca2.png"
 import SeloIA from "../assets/Img/SeloIA.png"
@@ -51,7 +51,7 @@ import Matheus from "../assets/Img/Matheus.jpeg"
 // animatics
 
 import Coppertone from "../assets/Video/COPPERTONE_2017_Baixa.mp4"
-import Cheetos from "../assets/Video/Cheetos_ING_19Agosto.mp4"
+// import Cheetos from "../assets/Video/Cheetos_ING_19Agosto.mp4"
 import Jogo from "../assets/Video/JOGO_13.mp4"
 import Mae from "../assets/Video/MAE_21.mp4"
 import Burro from "../assets/Video/BurroV11_15_07_Fcb_v2_ok.mp4"
@@ -88,7 +88,8 @@ export const videos = {
     Rotate: videoia3,
     Car_Speed: videoia4,
     Close_Legs: videoia5,
-    Garota:   videoia6
+    Garota:   videoia6,
+    Beats: Beats
 
 }
 
@@ -149,7 +150,7 @@ export const videos3 = [
         {
     
         id: 2,
-        videoName: Cheetos,
+        videoName: Mae,
       },
         {
     
@@ -179,14 +180,10 @@ export const videos4 = [
         id: 2,
         videoName: Burro,
       },
+       
         {
     
         id: 3,
-        videoName: Beats,
-      },
-        {
-    
-        id: 4,
         videoName: Claro_Narramatic_Linha2_Ref2,
       },
      

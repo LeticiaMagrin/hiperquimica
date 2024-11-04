@@ -1,6 +1,6 @@
 import {  videos3, videos4 } from "../../../Media/Media"
 import VidAnimatics1 from "./VidAnimatics1"
-import VidAnimatics2 from "./VidAnimatics2"
+// import VidAnimatics2 from "./VidAnimatics2"
 
 
 //video Player
@@ -61,7 +61,7 @@ function Animatics2(){
 
   
 </div>
-<VidAnimatics2 videos={videos4}/>
+{/* <VidAnimatics2 videos={videos4}/> */}
 </div>
   </div>
     </div>

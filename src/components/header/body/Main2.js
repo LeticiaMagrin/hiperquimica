@@ -1,5 +1,5 @@
 import { videos, videosIa }  from "../../../Media/Media";
-import { images } from "../../../Media/Media";
+// import { images } from "../../../Media/Media";
 
 // video Plaer
 import { DefaultPlayer as Video} from 'react-html5video';
@@ -15,9 +15,9 @@ function Main2(){
         Ipiranga,
     } = videos
 
-    const{
-        SeloIA
-    } = images
+    // const{
+    //     SeloIA
+    // } = images
 
     return(
         <>
@@ -27,10 +27,10 @@ function Main2(){
 
       <div className="container col-xxl-8 px-2 py-1 ">
     <div className="row  align-items-center  py-5">
-      <div class="col-lg-5 text-lg-start text-sm-center" id="main-hiperquimica">
+      <div class="col-lg-5 text-lg-start text-sm-center" id="main-hiperquimica-sec">
         <h1 class="display-4 fw-bold lh-1 "></h1>
-        <img className="pb-4 seloIa  pl-2" src={SeloIA} style={{ width: '60%', height: '60%' }}/>
-        <p class="col-lg-10 text-light  text-start text-ia-hiper pt-4">A HIPERQUIMICA combina expertise em inteligência artificial com criatividade para produzir vídeos e animações que se destacam nas redes. Utilizando tecnologia de ponta e um arsenal de talentos, criamos conteúdos dinâmicos e realistas que capturam a atenção do público e impulsionam o engajamento. Seja para campanhas publicitárias, vídeos institucionais ou animações envolventes, a HIPERQUIMICA transforma sua visão em realidade com alta qualidade e impacto. Descubra como nossas soluções podem levar sua comunicação ao próximo nível. </p>
+        {/* <img className="pb-4 seloIa  pl-2" src={SeloIA} style={{ width: '60%', height: '60%' }}/> */}
+        <p className="text-ia-hiper2 col-lg-10 text-light  text-start  pt-4">A HIPERQUIMICA combina expertise em inteligência artificial com criatividade para produzir vídeos e animações que se destacam nas redes. Utilizando tecnologia de ponta e um arsenal de talentos, criamos conteúdos dinâmicos e realistas que capturam a atenção do público e impulsionam o engajamento. Seja para campanhas publicitárias, vídeos institucionais ou animações envolventes, a HIPERQUIMICA transforma sua visão em realidade com alta qualidade e impacto. Descubra como nossas soluções podem levar sua comunicação ao próximo nível. </p>
        
 
        
@@ -45,7 +45,7 @@ function Main2(){
               <Video className='pt-4'
               
               >
-                <source src={Ipiranga} type='video/webm'/>
+                <source src={Ipiranga }  type='video/webm'/>
               </Video>
 
             </div>
