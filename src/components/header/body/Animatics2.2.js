@@ -30,13 +30,13 @@ function Animatics22(){
 
       <div className="container col-xxl-8 px-2 py-1 ">
     <div className="row  align-items-center  py-5">
-      <div class="col-lg-6 " id="main-hiperquimica-sec">
+      <div class="col-lg-5 " id="main-hiperquimica-sec">
       <h1 class="display-4 fw-bold lh-1 text-light mb-3 animatics-title text-lg-start text-sm-center"> 2D ANIMATICS</h1>
-      <p className="col-lg-10  text-light text-start mx-2 " id='animatics-texto-hq'>A HIPERQUIMICA é conhecida no mercado principalmente pela capacidade de contar histórias em imagens. Nossa expertise sempre foi entender os mecanismos que fazem um roteiro funcionar. É aí que entram nossos craques em imagem e storytelling para escolher, montar e até mesmo suprimir imagens, fazendo com que cada cena dos storyboards e animatics atue para que o filme seja montado em sua potencialidade máxima.</p>
+      <p className="col-lg-10  text-light text-start  " id='animatics-texto-hq'>A HIPERQUIMICA é conhecida no mercado principalmente pela capacidade de contar histórias em imagens. Nossa expertise sempre foi entender os mecanismos que fazem um roteiro funcionar. É aí que entram nossos craques em imagem e storytelling para escolher, montar e até mesmo suprimir imagens, fazendo com que cada cena dos storyboards e animatics atue para que o filme seja montado em sua potencialidade máxima.</p>
 
        
       </div>
-      <div className="col-12 col-sm-8 col-lg-5 vid-pagina ">
+      <div className="col-12 col-sm-8 col-lg-7 vid-pagina ">
       <div className="embed-responsive embed-responsive-16by9 ">
     
         

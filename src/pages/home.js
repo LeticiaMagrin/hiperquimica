@@ -4,7 +4,7 @@ import BlocoVideo from '../components/header/body/BlocoVideo';
 import Main from '../components/header/body/Main';
 import BlocoAnimatics from '../components/header/body/BlocoAnimatics';
 import BlocoStoryboard from '../components/header/body/BlocoStoryboard';
-import BlocoVideos from '../components/header/body/BlocoVideos';
+// import BlocoVideos from '../components/header/body/BlocoVideos';
 import BlocoIlustra from '../components/header/body/BlocoIlustra';
 import Sobre from '../components/header/body/Sobre';
 import Clientes from '../components/header/body/Clientes';
@@ -24,10 +24,10 @@ function Home() {
       <Main/>
       <BlocoAnimatics/>
       <BlocoStoryboard/>
-      <BlocoVideos/>
+      {/* <BlocoVideos/> */}
       <BlocoIlustra/>
-      <Sobre/>
       <Clientes/>
+      <Sobre/>
       <Equipe/>
       <Footer className="bg-dark"/>
     </div>

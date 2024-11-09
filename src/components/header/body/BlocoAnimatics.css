@@ -4,7 +4,7 @@
 }
 
 #hiperquimica-animatics{
-    font-family: 'din-hiper'
+    font-family: 'din-hiper';
 }
 #hiperquimica-animatics > a{
     text-decoration: none;
@@ -16,7 +16,13 @@
    font-size: 26px !important;
    text-align: left;
    
+   
+   
 }
+
+
+
+
 
 .vid{
     -webkit-column-count: 1;
@@ -76,6 +82,7 @@
     #hiperquimica-animatics, .animatics-texto-hiper {
         font-size: 22px !important;
         text-align: left !important;
+
         
      }
 

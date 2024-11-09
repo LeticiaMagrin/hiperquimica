@@ -17,7 +17,7 @@ function BlocoIlustra(){
     return (
 
         <>
-      <div id="Storyboard">
+      <div className="bg-dark" id="Storyboard">
 
       <div class="container pt-4 pb-5" >
             <div class="row">
