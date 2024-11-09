@@ -22,7 +22,7 @@ function StoryBoards2(){
 
       <div class="container pt-4" >
             <div class="row">
-              <div className="col-lg-5 col-sm-12 ">
+              <div className="col-lg-5 col-sm-12 text-start">
  
                 <h1 class="display-4 fw-bold lh-1 text-light heading-story2 pt-sm-0 pt-lg-5 " >Storyboards</h1>
                 <p class="lead text-light text-hiper-story2">Gui Fonseca, criativo do estúdio HIPERQUIMICA, sabe que entre um milhão de planos, apenas um realmente serve para cada cena dos filmes. Ele é responsável pela decupagem de cenas inesquecíveis em séries de sucesso como DNA do Crime (Netflix), O Jogo que Mudou a História(GloboPlay)  e Americana(Star+), além de muitos longas e comerciais de TV que se tornaram verdadeiros blockbusters.</p>
@@ -31,7 +31,7 @@ function StoryBoards2(){
 
               </div>
               <div class="col-lg-7 col-sm-12 pt-sm-0 pt-lg-5 ">
-                <div className="bg-light mb-4">
+                <div className="bg-dark mb-4">
 
                 <CarrosselImg className="pt-4"/>
                 </div>

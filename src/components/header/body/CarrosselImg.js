@@ -48,7 +48,7 @@ function CarrosselImg() {
       <div className='flex_row'>
         {imgs.map((data,i)=>
         <div className="thumbnail" key={i} >
-          <img className={wordData.id==i?"clicked":""} src={data.value} onClick={()=>handleClick(i)} height="70" width="100" />
+          <img className={wordData.id==i?"clicked":""} src={data.value} onClick={()=>handleClick(i)} height="140" width="200" />
         </div>
         )}
       </div>

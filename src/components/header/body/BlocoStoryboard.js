@@ -21,10 +21,10 @@ function BlocoStoryboard(){
 
       <div class="container pt-4" >
             <div class="row">
-              <div className="col-lg-4 col-sm-12 ">
+              <div className="col-lg-5 col-sm-12 text-start pb-4">
  
-                <h1 class="display-4 fw-bold lh-1 text-light heading-story pt-sm-0 pt-lg-5 " >Storyboard</h1>
-                <p class="lead text-light text-hiper-story">Storyboards que unem arte tradicional com narrativa visual. Cada quadro é uma obra cuidadosamente desenhada, dando forma aos roteiros</p>
+                <h1 class="  text-light pt-sm-0 pt-lg-5 " >STORYBOARD</h1>
+                <p class=" text-light text-hiper-story">Storyboards que unem arte tradicional com narrativa visual. Cada quadro é uma obra cuidadosamente desenhada, dando forma aos roteiros</p>
                 
 
                 <Link to='/storyboards' className="text-light text-hiper-story">Clique aqui &nbsp;
@@ -33,19 +33,34 @@ function BlocoStoryboard(){
 
                 </Link> 
               </div>
-              <div class="col-lg-4 col-sm-12 pt-sm-0 pt-lg-5 ">
-                <img className="Storyboard" alt="story" id="first" src={ Story12 }/>
-              </div>
+              <div className="col-lg-7 col-sm-12  ">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src={Story12} class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src={Story13} class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src={Story14} class="d-block w-100" alt="..."/>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
-              <div class="col-lg-4 col-sm-12 pt-sm-0 pt-lg-5">
-                <img className="Storyboard" alt="story" src={ Story13 }/>
-               
-              </div>
-              <div className="row justify-content-end">
-              <div class="col-lg-8 col-sm-12 ">
-                <img className="last" alt="story" src={ Story14 }/>
-              </div>
-              
               </div>
             </div>
       </div>

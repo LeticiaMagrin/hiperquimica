@@ -10,6 +10,7 @@
 .text-hiper-story{
     font-family: 'din-hiper';
     font-size: 26px;
+    text-align: start !important; 
     
 }
 

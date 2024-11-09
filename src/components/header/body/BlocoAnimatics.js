@@ -23,7 +23,7 @@ function BlocoAnimatics(){
     <div className="bg-dark">
 
     <div className="container  pt-2 mx-auto">
-    <div className="row align-items-center g-lg-5 py-5" id="hq-adjs">
+    <div className="row align-items-center g-lg-5 pt-5" id="hq-adjs">
       <div className="col-lg-5 text-start " id="hiperquimica-animatics">
         <h2 className="display-4 fw-bold lh-1 text-light mb-3 titulo-animatics">2D ANIMATIC</h2>
         <p className="col-lg-10 fs-4 text-light animatics-texto-hiper">Roteiros são transformados em cenas animadas com ilustrações originais que capturam a essência de cada narrativa. Roteiros que ganham vida quadro a quadro</p>
