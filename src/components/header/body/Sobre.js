@@ -14,7 +14,7 @@ function Sobre(){
           </div>
           
   <div class="px-4 py-1 text-center texto-sobre">
-    <div class="col-lg-6 mx-auto">
+    <div class="col-lg-5 mx-auto">
       <p class="lead mb-4 pt-3">Com 30 anos de mercado, a HIPERQUIMICA se consagrou como um estúdio de referência em decupagem cinematográfica, produzindo storyboards e animatics para grandes marcas. Sempre em parceria com as maiores agências e produtoras de São Paulo. Nossa equpe de talentos entende tudo de cinema - de lentes e movimentos de câmera e direção de arte e fotografia.</p>
      
     </div>

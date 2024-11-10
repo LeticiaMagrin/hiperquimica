@@ -100,6 +100,7 @@ function Clientes(){
         </div>
     </div>
 </div>
+<hr/>
         </>
     )
 }

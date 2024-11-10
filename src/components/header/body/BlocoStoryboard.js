@@ -19,12 +19,12 @@ function BlocoStoryboard(){
         <>
       <div id="Storyboard">
 
-      <div class="container pt-4" >
-            <div class="row">
+      <div className="container pt-4" >
+            <div className="row">
               <div className="col-lg-5 col-sm-12 text-start pb-4">
  
-                <h1 class="  text-light pt-sm-0 pt-lg-5 " >STORYBOARD</h1>
-                <p class=" text-light text-hiper-story">Storyboards que unem arte tradicional com narrativa visual. Cada quadro é uma obra cuidadosamente desenhada, dando forma aos roteiros</p>
+                <h2 className="  text-light pt-sm-0 pt-lg-5 heading-story " >STORYBOARD</h2>
+                <p className=" text-light text-hiper-story">Storyboards que unem arte tradicional com narrativa visual. Cada quadro é uma obra cuidadosamente desenhada, dando forma aos roteiros</p>
                 
 
                 <Link to='/storyboards' className="text-light text-hiper-story">Clique aqui &nbsp;
@@ -33,8 +33,15 @@ function BlocoStoryboard(){
 
                 </Link> 
               </div>
-              <div className="col-lg-7 col-sm-12  ">
-              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div className="col-lg-7 col-sm-12 ">
+                 
+                 <img className="image-storyboard" id="imagens-storyboard" src={Story12}/>
+
+
+
+                {/* Carrossel mobile */}<div id="carrossel">
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -42,10 +49,10 @@ function BlocoStoryboard(){
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={Story12} class="d-block w-100" alt="..."/>
+      <img src={Story13} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={Story13} class="d-block w-100" alt="..."/>
+      <img src={Story12} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
       <img src={Story14} class="d-block w-100" alt="..."/>
@@ -59,16 +66,35 @@ function BlocoStoryboard(){
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+                </div>
 </div>
-
-              </div>
+     
             </div>
-      </div>
+          
+            <div className=" col-md-4 ">
+            
+ 
+              <img className="" id="imagens-storyboard" style={{width: '100%'}} source src={Story13} />
+            </div>
+
+            <div className="col-md-4">
+              <img id="imagens-storyboard" style={{width: '100%'}} source src={Story13} />
+            </div>
+            <div className="col-md-4">
+              <img id="imagens-storyboard" style={{width: '100%'}} source src={Story13} />
+              
+            </div>
+          </div>
+    </div>
+            </div>
+
+        
+          
       
          
         
         
-      </div>
+      
         </>
     )
 }

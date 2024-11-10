@@ -6,12 +6,16 @@
 .heading-story2{
     font-family: 'din-hiper';
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 26px !important;
 }
 .text-hiper-story2{
     font-family: 'din-hiper';
     font-size: 20px;
     
+}
+
+.Storyboard2-cont{
+    margin-top: 15%;
 }
 
 a {
@@ -43,6 +47,9 @@ a {
         height: 100% !important;
         padding-top: 1%;
     }
+    .Storyboard2-cont{
+        margin-top: 0;
+    }
     #Storyboard{
         padding-top: 3%;
     }
@@ -71,6 +78,10 @@ a {
     .last{
         height: 100% !important;
         width: 107% !important;
+    }
+
+    .Storyboard2-cont{
+        margin-top: 0;
     }
     
 }

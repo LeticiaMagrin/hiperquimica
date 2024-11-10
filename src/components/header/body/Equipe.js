@@ -20,7 +20,7 @@ function Equipe(){
 
     return(
 <>
-          <div className="container-fluid  my-2" id="future">
+          <div className="container-fluid  mt-3" id="future">
               <p className="future text-center ">Nossa Equipe</p>
             
        
@@ -32,7 +32,7 @@ function Equipe(){
 <div className='mainEquipe'>
   <div className="container marketing py-5 text-start ">
     
-        <div className="row mx-4">
+        <div className="row lg-mx-4 mx-2">
         <div className="col-lg-4 ">
             <img className='rounded' width="320" height="370" src={Guilherme}/>
           

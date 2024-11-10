@@ -5,13 +5,32 @@
 
 .titulo-anima{
         font-family: 'din-hiper';
+        font-size: 26px ;
     
 }
 
 .titulo-ilustra, .link-ilustra{
     font-family: 'din-hiper';
-    font-size: 26px;
+    font-size: 26px !important;
     text-decoration: none;
     cursor: pointer;
     color: #ffffff;
+}
+
+@media (max-width: 480px){
+
+    
+    .titulo-anima{
+    font-family: 'din-hiper';
+    font-size: 22px ;
+
+}
+
+.titulo-ilustra, .link-ilustra{
+font-family: 'din-hiper';
+font-size: 22px !important;
+text-decoration: none;
+cursor: pointer;
+color: #ffffff;
+}
 }
