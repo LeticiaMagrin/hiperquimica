@@ -4,15 +4,22 @@ import "./BlocoIlustra.css"
 import { Link } from "react-router-dom"
 
 //media
-import { images } from '../../../Media/Media'
+import { arts } from '../../../Media/Media'
 
 function BlocoIlustra(){
 
   const{
-    Story12,
-    Story13,
-    Story14,
-  } = images
+    arta,
+    artb,
+    art1,
+    art2,
+    art3,
+    art4,
+    art5,
+    art6,
+    art7,
+    art8,
+  } = arts
 
     return (
 
@@ -37,7 +44,7 @@ function BlocoIlustra(){
         </div>
         <div className="col-lg-7 col-sm-12  my-4">
            
-           <img className="image-storyboard" id="imagens-storyboard" src={Story12}/>
+           <img className="image-ilustra" id="imagens-storyboard" src={arta}/>
 
 
 
@@ -51,13 +58,13 @@ function BlocoIlustra(){
 </div>
 <div class="carousel-inner">
 <div class="carousel-item active">
-<img src={Story13} class="d-block w-100" alt="..."/>
+<img src={artb} class="d-block w-100" alt="..."/>
 </div>
 <div class="carousel-item">
-<img src={Story12} class="d-block w-100" alt="..."/>
+<img src={art1} class="d-block w-100" alt="..."/>
 </div>
 <div class="carousel-item">
-<img src={Story14} class="d-block w-100" alt="..."/>
+<img src={art2} class="d-block w-100" alt="..."/>
 </div>
 </div>
 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -72,20 +79,20 @@ function BlocoIlustra(){
 </div>
 
       </div>
-      <div className="row pb-2">
+      <div className="row pb-4">
 
     
       <div className=" col-md-4">
       
 
-        <img className="" id="imagens-storyboard" style={{width: '100%'}} source src={Story13} />
+        <img className="" id="imagens-storyboard" style={{width: '100%'}} source src={artb} />
       </div>
 
       <div className="col-md-4">
-        <img id="imagens-storyboard" style={{width: '100%'}} source src={Story13} />
+        <img id="imagens-storyboard" style={{width: '100%'}} source src={art1} />
       </div>
       <div className="col-md-4">
-        <img id="imagens-storyboard" style={{width: '100%'}} source src={Story13} />
+        <img id="imagens-storyboard" style={{width: '100%'}} source src={art2} />
         
       </div>
     </div>

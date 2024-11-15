@@ -10,9 +10,10 @@ import CarrosselImg from "./CarrosselImg"
 function StoryBoards2(){
 
   const{
-    Story12,
-    Story13,
-    Story14,
+    Story15,
+    Story16,
+    Story17,
+    Story18,
   } = images
 
     return (
@@ -43,13 +44,13 @@ function StoryBoards2(){
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={Story12} className="d-block w-100" alt="..."/>
+      <img src={Story18} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src={Story13} className="d-block w-100" alt="..."/>
+      <img src={Story16} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src={Story14} className="d-block w-100" alt="..."/>
+      <img src={Story17} className="d-block w-100" alt="..."/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

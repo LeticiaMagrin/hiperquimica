@@ -12,6 +12,9 @@ function BlocoStoryboard(){
     Story12,
     Story13,
     Story14,
+    Story15,
+    Story16,
+    Story17
   } = images
 
     return (
@@ -52,7 +55,7 @@ function BlocoStoryboard(){
       <img src={Story13} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={Story12} class="d-block w-100" alt="..."/>
+      <img src={Story15} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
       <img src={Story14} class="d-block w-100" alt="..."/>
@@ -78,10 +81,10 @@ function BlocoStoryboard(){
             </div>
 
             <div className="col-md-4">
-              <img id="imagens-storyboard" style={{width: '100%'}} source src={Story13} />
+              <img id="imagens-storyboard" style={{width: '100%'}} source src={Story14} />
             </div>
             <div className="col-md-4">
-              <img id="imagens-storyboard" style={{width: '100%'}} source src={Story13} />
+              <img id="imagens-storyboard" style={{width: '100%'}} source src={Story15} />
               
             </div>
           </div>

@@ -25,6 +25,19 @@ import YER from "../assets/Img/y&r.jpeg"
 import Talent from "../assets/Img/Talent.jpeg"
 import McCann from "../assets/Img/mccan.jpeg"
 
+//Ilustrações
+
+import arta from "../assets/Img/ARTE_00A.jpg"
+import artb from "../assets/Img/ARTE_00b.jpg"
+import art1 from "../assets/Img/ARTE_01.jpg"
+import art2 from "../assets/Img/ARTE_02.jpg"
+import art3 from "../assets/Img/ARTE_03.jpg"
+import art4 from "../assets/Img/ARTE_04.jpg"
+import art5 from "../assets/Img/ARTE_05.jpg"
+import art6 from "../assets/Img/ARTE_06.jpg"
+import art7 from "../assets/Img/ARTE_07.jpg"
+import art8 from "../assets/Img/ARTE_08.jpg"
+
 //videosIA
 
 import videoia1 from '../assets/Video/mushroom_cloud.mp4'
@@ -295,6 +308,19 @@ export const hiperquimmicaEquipe = {
   Val: Val,
   Clara: Clara,
   Matheus: Matheus,
+}
+
+export const arts = {
+  arta: arta,
+  artb: artb,
+  art1: art1,
+  art2: art2,
+  art3: art3,
+  art4: art4,
+  art5: art5,
+  art6: art6,
+  art7: art7,
+  art8: art8,
 }
 
 export default Media
