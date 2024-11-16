@@ -8,9 +8,13 @@ import { arts } from '../../../Media/Media'
 function Ilustra2(){
 
   const{
-   art8,
-   art7,
+   arta,
+   artb,
+   art2,
+   art3,
+   art5,
    art6,
+   art8,
   } = arts
 
     return (
@@ -38,13 +42,29 @@ function Ilustra2(){
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={art6} className="d-block w-100" alt="..."/>
+      <img src={arta} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src={art7} className="d-block w-100" alt="..."/>
+      <img src={artb} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={art2} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={art3} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={art5} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={art6} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
       <img src={art8} className="d-block w-100" alt="..."/>

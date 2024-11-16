@@ -10,10 +10,18 @@ import CarrosselImg from "./CarrosselImg"
 function StoryBoards2(){
 
   const{
+    Story3,
+    Story4,
+    Story5,
+    Story6,
+    Story8,
+    Story9,
+    Story10,
+    Story13,
+    Story14,
     Story15,
-    Story16,
     Story17,
-    Story18,
+    
   } = images
 
     return (
@@ -31,7 +39,7 @@ function StoryBoards2(){
                 
 
               </div>
-              <div className="col-lg-7 col-sm-12 pt-sm-0 pt-lg-5 pt-2">
+              <div className="col-lg-7 col-sm-12 pt-sm-0 ">
                 {/* <div className="bg-dark mb-4">
 
                 <CarrosselImg className="pt-4"/>
@@ -41,13 +49,41 @@ function StoryBoards2(){
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={Story18} className="d-block w-100" alt="..."/>
+      <img src={Story3} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src={Story16} className="d-block w-100" alt="..."/>
+      <img src={Story4} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={Story5} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={Story6} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={Story8} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={Story9} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={Story13} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={Story14} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={Story15} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
       <img src={Story17} className="d-block w-100" alt="..."/>

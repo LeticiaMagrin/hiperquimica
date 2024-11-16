@@ -1,10 +1,13 @@
+import { R, DefaultPlayer as Video} from 'react-html5video';
+import 'react-html5video/dist/styles.css'
+
 //Stylesheet
 import "./BlocoIlustra.css"
 
 import { Link } from "react-router-dom"
 
 //media
-import { arts } from '../../../Media/Media'
+import { arts, videos,  } from '../../../Media/Media'
 
 function BlocoIlustra(){
 
@@ -20,6 +23,11 @@ function BlocoIlustra(){
     art7,
     art8,
   } = arts
+
+  const{
+    Reel
+
+  } = videos
 
     return (
 
@@ -43,14 +51,52 @@ function BlocoIlustra(){
           </Link> 
         </div>
         <div className="col-lg-7 col-sm-12  my-4">
+          <div className="embed-responsive embed-responsive-16by9 ">
+    
+        
+    <div className='vid'>
+    
+          <div className='video-container'>
+            <Video
+            
+            >
+              <source src={Reel} type='video/webm' style={{}} />
+            </Video>
+
+          </div>
+        </div>
+     
+  </div>
            
-           <img className="image-ilustra" id="imagens-storyboard" src={arta}/>
+           {/* <img className="image-ilustra" id="imagens-storyboard" src={arta}/> */}
 
 
 
-          {/* Carrossel mobile */}<div id="carrossel">
+          {/* Carrossel mobile */}
+          <div id="carrossel">
+          <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src={art7} class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src={art1} class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src={art4} class="d-block w-100" alt="..."/>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          {/* <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 <div class="carousel-indicators">
 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -75,24 +121,24 @@ function BlocoIlustra(){
 <span class="carousel-control-next-icon" aria-hidden="true"></span>
 <span class="visually-hidden">Next</span>
 </button>
-          </div>
+          </div> */}
 </div>
 
       </div>
-      <div className="row pb-4">
+      <div className="row pb-2">
 
     
       <div className=" col-md-4">
       
 
-        <img className="" id="imagens-storyboard" style={{width: '100%'}} source src={artb} />
+        <img className="" id="imagens-storyboard" style={{width: '107%'}} source src={art7} />
       </div>
 
       <div className="col-md-4">
-        <img id="imagens-storyboard" style={{width: '100%'}} source src={art1} />
+        <img id="imagens-storyboard" style={{width: '107%'}} source src={art1} />
       </div>
       <div className="col-md-4">
-        <img id="imagens-storyboard" style={{width: '100%'}} source src={art2} />
+        <img id="imagens-storyboard" style={{width: '107%'}} source src={art4} />
         
       </div>
     </div>

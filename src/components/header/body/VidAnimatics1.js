@@ -25,12 +25,14 @@ function VidAnimatics1(){
             <div className='video-container'>
               <Video
               style={{width: '100%'}}
-              autoPlay={model}>
+              autoPlay={model}
+              poster={item.thumbnail}>
                 <source src={item.videoName} type='video/webm'/>
               </Video>
 
             </div>
           </div>
+          
         )
 
       })}

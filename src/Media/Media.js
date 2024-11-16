@@ -8,9 +8,6 @@ import Claro_Narramatic_Linha2_Ref2 from "../assets/Video/03-Probio2_Amigas.mp4"
 import marca1 from "../assets/Img/marca1.1.png"
 import marca2 from "../assets/Img/marca2.png"
 import SeloIA from "../assets/Img/SeloIA.png"
-import Story12 from "../assets/Img/story12.jpg"
-import Story13 from "../assets/Img/story13.jpg"
-import Story14 from "../assets/Img/story14.jpg"
 import DPZ from "../assets/Img/dpz.jpeg"
 import BBDO from "../assets/Img/BBDO.jpeg"
 import Draftline from "../assets/Img/draftline.jpeg"
@@ -47,19 +44,22 @@ import videoia4 from '../assets/Video/05-VW_AMAROK.mp4'
 import videoia5 from '../assets/Video/06-DM9_Ifood.mp4'
 import videoia6 from '../assets/Video/07-Narramatic_03_Avon_.mp4'
 import Ipiranga from '../assets/Video/04-POSTOS_IPRIRANGA.mp4'
+import Reel from '../assets/Video/HIPERQUIMICA REEL-HD.mp4'
 //img ia
 
 import Farm from "../assets/Img/farm_men.png"
 
 //Equipe
 
-import Guilherme from "../assets/Img/Guilherme.jpeg"
-import Mauro from "../assets/Img/Mauro.jpeg"
-import Marina from "../assets/Img/Marina.jpeg"
-import Val from "../assets/Img/Val.jpeg"
-import Clara from "../assets/Img/Clara.jpeg"
-import Matheus from "../assets/Img/Matheus.jpeg"
+import Guilherme from "../assets/Img/Gui.jpg"
+import Mauro from "../assets/Img/Mauro.jpg"
+import Marina from "../assets/Img/Marina.jpg"
+import Val from "../assets/Img/Val.jpg"
+import Clara from "../assets/Img/Clara.jpg"
+import Matheus from "../assets/Img/Matheus.jpg"
 
+import Frame1 from "../assets/Img/frame-006.jpg"
+import Frame2 from "../assets/Img/frame-005.jpg"
 
 // animatics
 
@@ -71,8 +71,18 @@ import Burro from "../assets/Video/BurroV11_15_07_Fcb_v2_ok.mp4"
 import Beats from "../assets/Video/BeatsV05.mp4"
 
 //storyboards
-
+import Story2 from "../assets/Img/story02_Avon.jpg"
+import Story3 from "../assets/Img/story03_Sunsilk.jpg"
+import Story4 from "../assets/Img/story04_Malbec.jpg"
+import Story5 from "../assets/Img/story05_Bonafont.jpg"
+import Story6 from "../assets/Img/story06_VW.jpg"
+import Story7 from "../assets/Img/story07_ITAÚ.jpg"
+import Story8 from "../assets/Img/story08_Gol.jpg"
+import Story9 from "../assets/Img/story09_Gol.jpg"
 import Story10 from "../assets/Img/story10.jpg";
+import Story12 from "../assets/Img/story12.jpg"
+import Story13 from "../assets/Img/story13.jpg"
+import Story14 from "../assets/Img/story14.jpg"
 import Story15 from "../assets/Img/story15.jpg";
 import Story16 from "../assets/Img/story16.jpg";
 import Story17 from "../assets/Img/story17.jpg";
@@ -102,7 +112,8 @@ export const videos = {
     Car_Speed: videoia4,
     Close_Legs: videoia5,
     Garota:   videoia6,
-    Beats: Beats
+    Beats: Beats,
+    Reel: Reel
 
 }
 
@@ -159,6 +170,7 @@ export const videos3 = [
     
         id: 1,
         videoName: Coppertone,
+        thumbnail: Frame2,
       },
         {
     
@@ -169,6 +181,7 @@ export const videos3 = [
     
         id: 3,
         videoName: Jogo,
+        thumbnail: Frame1,
       },
         {
     
@@ -277,6 +290,15 @@ export const images = {
     marca1 : marca1,
     marca2 : marca2,
     SeloIA : SeloIA,
+    Story2: Story2,
+    Story3: Story3,
+    Story4: Story4,
+    Story5: Story5,
+    Story6: Story6,
+    Story7: Story7,
+    Story8: Story8,
+    Story9: Story9,
+    Story10: Story10,
     Story12: Story12,
     Story13: Story13,
     Story14: Story14,
