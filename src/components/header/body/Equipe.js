@@ -75,6 +75,8 @@ function Equipe(){
         <div className="col-lg-4">
             <img className='rounded' width="300" height="370" src={Matheus}/>
 
+            
+
             <h6 className="fw-normal pt-2 title-bold">Matheus Dornella</h6>
             <p className='font-extra-light'>Prompt Engineer</p>
             
