@@ -54,10 +54,10 @@ function Main(){
       <div className='vid'>
       
             <div className='video-container'>
-              <Video
+              <Video playsInline
               
               >
-                <source src={videoHome} type='video/webm'/>
+                <source src={videoHome} type='video/webm' />
               </Video>
 
             </div>

@@ -57,7 +57,7 @@ function BlocoIlustra(){
     <div className='vid'>
     
           <div className='video-container'>
-            <Video
+            <Video playsInline
             
             >
               <source src={Reel} type='video/webm' style={{}} />
