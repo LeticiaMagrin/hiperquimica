@@ -54,7 +54,7 @@ function BlocoIlustra(){
           <div className="embed-responsive embed-responsive-16by9 ">
     
         
-    <div className='vid'>
+    <div className='vidIlustra'>
     
           <div className='video-container'>
             <Video playsInline
