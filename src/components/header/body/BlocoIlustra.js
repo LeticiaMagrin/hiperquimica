@@ -36,7 +36,7 @@ function BlocoIlustra(){
         
 
 
-<div className="container pt-4" >
+<div className="container py-4" >
       <div className="row">
         <div className="col-lg-5 col-sm-12 text-start pb-4">
 

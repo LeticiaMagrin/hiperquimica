@@ -39,12 +39,12 @@ function StoryBoards2(){
                 
 
               </div>
-              <div className="col-lg-7 col-sm-12 pt-sm-0 ">
+              <div className="col-lg-7 col-sm-12 pt-sm-0 pt-4 div-move ">
                 {/* <div className="bg-dark mb-4">
 
-                <CarrosselImg className="pt-4"/>
+0                <CarrosselImg className="pt-4"/>
                 </div> */}
-              <div id="carouselExampleIndicators" className="carousel slide  Storyboard2-cont" data-bs-ride="carousel ">
+              <div id="carouselExampleIndicators" className="carousel slide  Storyboard2-cont mt-md-4 " data-bs-ride="carousel ">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>

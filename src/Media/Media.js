@@ -170,7 +170,7 @@ export const videos3 = [
     
         id: 1,
         videoName: Coppertone,
-        thumbnail: Frame2,
+        thumbnail: Frame1,
       },
         {
     
@@ -181,7 +181,7 @@ export const videos3 = [
     
         id: 3,
         videoName: Jogo,
-        thumbnail: Frame1,
+        thumbnail: Frame2,
       },
         {
     
