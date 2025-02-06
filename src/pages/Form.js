@@ -16,7 +16,7 @@ function Form() {
 
     const data = {
       sender: { name: name, email: email },
-      to: [{ email: "contato@hiperquimica.com", name: "Hiperquímica" }],
+      to: [{ email: "", name: "Hiperquímica" }],
       subject: `Contato de ${name} através do site `,
       htmlContent: `
                 <html>
