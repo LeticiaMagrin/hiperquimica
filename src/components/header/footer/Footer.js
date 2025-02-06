@@ -27,8 +27,6 @@ const Footer = () =>{
                                     <a className="nav-link text-light text-uppercase" >Contato</a>
                                     </Link>
                                 </li>
-                
-                
                 </ul>
                 <ul className="nav justify-content-center mb-3 text-light ">
                 
