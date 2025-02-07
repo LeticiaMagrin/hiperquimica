@@ -11,7 +11,7 @@ function Form() {
     return (
         <div className="cont">
             <h1 className="title">Contato</h1>
-            <form className="form" onSubmit={sendEmail}>
+            <form className="form">
                 <input
                     className="input"
                     type="text"
