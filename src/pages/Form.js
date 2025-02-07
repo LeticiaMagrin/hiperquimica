@@ -34,11 +34,7 @@ function Form() {
     try {
       const response = await fetch("https://api.sendinblue.com/v3/smtp/email", {
         method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
-          "api-key": "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",
-        },
+        
         body: JSON.stringify(data),
       })
 
