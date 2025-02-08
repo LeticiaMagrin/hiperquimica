@@ -28,7 +28,7 @@ function Mauro(){
                 <p class="lead mb-4 text-quem-somos">Em 2018, Mauro Salgado lançou de forma independente a trilogia Rumble Bots, uma obra que explora o combate de robôs, destacando-se pela inovação e dinamismo. Em 2021, criou o canal Contosfera no YouTube, voltado para animações para o público jovem e adulto, e, no ano seguinte, o canal Nimosoficial, dedicado a animações infantis. Além disso, há seis anos, ele compartilha seu conhecimento como professor de Arte Digital na Quanta Academia de Artes.</p>
                 <p class="lead mb-4 text-quem-somos">Mauro Salgado é um criador multidisciplinar, movido pela paixão em dar vida a projetos que conectam diferentes formas de arte, sempre com um olhar inovador e uma técnica apurada que cativa e inspira.</p>
                 </div>
-                <p class="lead mb-4 text-quem-somos text-center">maurosalgado.com</p>
+                <a class="lead mb-4 text-quem-somos text-center" href="https://www.maurosalgado.com">maurosalgado.com</a>
             <div class="card-body">
               <div class="col-10 ">
     

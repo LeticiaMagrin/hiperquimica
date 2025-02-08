@@ -27,7 +27,7 @@ function Guilherme(){
                 <p class="lead mb-4 text-quem-somos">Entre suas premiações estão o PROAC de 2017 com a adaptação de "O CRIME DO RESTAURANTE CHINÊS" e o PROAC de 2008 com "ESTAÇÃO LUZ". Ele também é autor de “AUTOMATIC LOVER” (2012), explorando a dualidade entre máquinas e sentimentos.</p>
                 <p class="lead mb-4 text-quem-somos">Sua trajetória reflete um compromisso com a inovação e a versatilidade, transformando cada projeto em uma nova oportunidade de cruzar fronteiras criativas e conectar diferentes formas de arte em narrativas únicas.</p>
                 </div>
-                <p class="lead mb-4 text-quem-somos text-center">www.guifonseca333.com</p>
+                <a class="lead mb-4 text-quem-somos text-center" href="https://wwww.guifonseca333.com">www.guifonseca333.com</a>
             <div class="card-body">
               <div class="col-10 ">
     

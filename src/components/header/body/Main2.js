@@ -13,6 +13,10 @@ import CarouselIA2 from "./CaroulselIA2";
 function Main2(){
     const{
         Ipiranga,
+        videoia41,
+        videoia51,
+        
+        
     } = videos
 
     // const{
@@ -46,6 +50,22 @@ function Main2(){
               
               >
                 <source src={Ipiranga }  type='video/webm'/>
+              </Video>
+
+            </div>
+            <div className='video-container2'>
+              <Video className='pt-4'
+              
+              >
+                <source src={videoia41}  type='video/webm'/>
+              </Video>
+
+            </div>
+            <div className='video-container2'>
+              <Video className='pt-4'
+              
+              >
+                <source src={videoia51}  type='video/webm'/>
               </Video>
 
             </div>

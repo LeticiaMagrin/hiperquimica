@@ -18,6 +18,7 @@ function Clientes(){
         YER,
         McCann,
         Talent,
+        ClientesHiper,
     } = images
 
     return(
@@ -32,8 +33,11 @@ function Clientes(){
           </div>
           <div className='principal'>
   <div class="container  pt-2">
+    <div className="imagem-clientes">
+        <img alt="clients" className="clientes-hiperq" src={ClientesHiper}/>
+    </div>
     
-        <div class="row mx-5">
+        {/* <div class="row mx-5">
         <div class="col-12 col-lg-4 ">
             
         <img alt="client" className="client" src={DPZ}/>
@@ -97,7 +101,7 @@ function Clientes(){
                     <img alt="client" className="client" src={Paranoid}/>
                 </div>
             </div>
-        </div>
+        </div> */}
     </div>
 </div>
 <hr/>

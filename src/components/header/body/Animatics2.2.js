@@ -18,6 +18,8 @@ import './BlocoAnimatics.css'
 function Animatics22(){
     const{
         Beats,
+        Coppertone,
+        Jogo,
     } = videos
 
 
@@ -50,6 +52,22 @@ function Animatics22(){
               </Video>
 
             </div>
+            <div className='video-container2'>
+              <Video className='pt-4'
+              
+              >
+                <source src={ Coppertone }  type='video/webm'/>
+              </Video>
+
+            </div>
+            <div className='video-container2'>
+              <Video className='pt-4'
+              
+              >
+                <source src={ Jogo }  type='video/webm'/>
+              </Video>
+
+            </div>
           </div>
        
     </div>
@@ -59,10 +77,10 @@ function Animatics22(){
     </div>
       </div>
       <div className="container com-videos">
-  <div className="row pb-6 ">
-  <VidAnimatics1 className="" videos={videos3}/>
-  </div>
-</div>
+        <div className="row pb-6 ">
+          <VidAnimatics1 className="" videos={videos3}/>
+        </div>
+    </div>
   </div>
         
         </>

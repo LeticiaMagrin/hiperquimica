@@ -57,6 +57,10 @@
     font-size: 26px;
 }
 
+.video-container2{
+    display: none;
+}
+
 @media (max-width: 991px){
     .vid{
         -webkit-column-count: 1;
@@ -84,6 +88,9 @@
         text-align: left !important;
 
         
+     }
+     .video-container2{
+        display: contents;
      }
 
      

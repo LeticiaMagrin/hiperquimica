@@ -10,5 +10,9 @@
     width: 10rem !important;
 }
 
+@media (max-width: 480px){
 
-
+    .clientes-hiperq{
+        width: 100%;
+    }
+}

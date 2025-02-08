@@ -21,6 +21,7 @@ import TBWA from "../assets/Img/tbwa.jpeg"
 import YER from "../assets/Img/y&r.jpeg"
 import Talent from "../assets/Img/Talent.jpeg"
 import McCann from "../assets/Img/mccan.jpeg"
+import ClientesHiper from "../assets/Img/Clientes-HIPER.png"
 
 //Ilustrações
 
@@ -40,8 +41,8 @@ import art8 from "../assets/Img/ARTE_08.jpg"
 import videoia1 from '../assets/Video/mushroom_cloud.mp4'
 import videoia2 from '../assets/Video/end_of_the_day.mp4'
 import videoia3 from '../assets/Video/rotate.mp4'
-import videoia4 from '../assets/Video/05-VW_AMAROK.mp4'
-import videoia5 from '../assets/Video/06-DM9_Ifood.mp4'
+import videoia41 from '../assets/Video/05-VW_AMAROK.mp4'
+import videoia51 from '../assets/Video/06-DM9_Ifood.mp4'
 import videoia6 from '../assets/Video/07-Narramatic_03_Avon_.mp4'
 import Ipiranga from '../assets/Video/04-POSTOS_IPRIRANGA.mp4'
 import Reel from '../assets/Video/HIPERQUIMICA REEL-HD.mp4'
@@ -60,7 +61,6 @@ import Matheus from "../assets/Img/Matheus.jpg"
 
 import Frame1 from "../assets/Img/frame-006.jpg"
 import Frame2 from "../assets/Img/frame-005.jpg"
-
 // animatics
 
 import Coppertone from "../assets/Video/COPPERTONE_2017_Baixa.mp4"
@@ -89,6 +89,9 @@ import Story17 from "../assets/Img/story17.jpg";
 import Story18 from "../assets/Img/story18.jpg";
 
 
+//thumbnails
+
+import reel_thumb from "../assets/Img/reelthumb.png"
 
 const Media = () => {
 
@@ -109,14 +112,30 @@ export const videos = {
     Mushroom_Cloud: videoia1,
     End_day: videoia2,
     Rotate: videoia3,
-    Car_Speed: videoia4,
-    Close_Legs: videoia5,
+    // Car_Speed: videoia4,
+    // Close_Legs: videoia5,
     Garota:   videoia6,
     Beats: Beats,
-    Reel: Reel
-
+    Reel: Reel,
+    Coppertone: Coppertone,
+    Mae: Mae,
+    Jogo: Jogo,
+    videoia41: videoia41,
+    videoia51: videoia51,
 }
 
+export const outro_array =[
+  {
+    videoName: Coppertone,
+    thumbnail: Frame1 ,
+  },{
+    videoName: Jogo,
+    thumbnail: Frame2,
+  },{
+    videoName: Reel,
+    thumbnail: reel_thumb,
+  },
+]
 export const videos1 =[
     {
     
@@ -176,6 +195,7 @@ export const videos3 = [
     
         id: 2,
         videoName: Mae,
+        
       },
         {
     
@@ -238,7 +258,12 @@ export const videosIa = [
       {
   
       id: 4,
-      videoName: videoia4,
+      videoName: videoia41,
+    },
+      {
+  
+      id: 4,
+      videoName: videoia51,
     },
 
    
@@ -253,12 +278,12 @@ export const videosIa = [
     {
 
     id: 1,
-    videoName: videoia4,
+    videoName: videoia41,
   },
     {
 
     id: 2,
-    videoName: videoia5,
+    videoName: videoia51,
   },
     {
 
@@ -320,6 +345,8 @@ export const images = {
     YER: YER,
     McCann: McCann,
     Talent: Talent,
+    ClientesHiper: ClientesHiper,
+    reel_thumb:reel_thumb,
 
 }
 
@@ -344,5 +371,15 @@ export const arts = {
   art7: art7,
   art8: art8,
 }
+
+export const thumbnail_reels =[
+  {
+
+    videoName: Reel,
+    thumbnail: reel_thumb,
+  }
+]
+
+
 
 export default Media

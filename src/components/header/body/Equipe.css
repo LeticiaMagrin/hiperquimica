@@ -35,3 +35,37 @@
     
    
 }
+
+.equipe-memb{
+    width: 300px;
+    height: 370px;
+}
+
+@media (max-width: 480px){
+
+    .equipe-memb{
+        width: 150px !important;
+        height: 187px !important;
+    }
+
+    .title-bold{
+        font-family: 'din-hiper-bold';
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    
+    .font-medium{
+        font-family: 'din-hiper';
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    
+    .font-extra-light{
+        font-family: 'din-hiper-italic';
+        font-size: 9px;
+        margin-top: -2px;
+        
+       
+    }
+}
