@@ -260,11 +260,7 @@ export const videosIa = [
       id: 4,
       videoName: videoia41,
     },
-      {
-  
-      id: 4,
-      videoName: videoia51,
-    },
+      
 
    
     ] 
