@@ -1,7 +1,7 @@
 //Stylesheet
 import "./Story2.css"
 
-
+import { useEffect } from 'react';
 
 //media
 import { images } from '../../../Media/Media'
@@ -23,6 +23,10 @@ function StoryBoards2(){
     Story17,
     
   } = images
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+}, []);
 
     return (
 

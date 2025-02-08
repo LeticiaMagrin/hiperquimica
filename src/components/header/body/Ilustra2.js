@@ -1,6 +1,8 @@
 //Stylesheet
 import "./Story2.css"
 
+import { useEffect } from 'react';
+
 //media
 import { arts } from '../../../Media/Media'
 
@@ -16,7 +18,10 @@ function Ilustra2(){
    art6,
    art8,
   } = arts
-
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+}, []);
     return (
 
         <>

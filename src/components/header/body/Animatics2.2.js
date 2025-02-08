@@ -1,5 +1,5 @@
 
-
+import { useEffect } from 'react';
 // video Plaer
 import { DefaultPlayer as Video} from 'react-html5video';
 import 'react-html5video/dist/styles.css'
@@ -22,6 +22,9 @@ function Animatics22(){
         Jogo,
     } = videos
 
+    useEffect(() => {
+      window.scrollTo(0, 0);
+  }, []);
 
 
     return(

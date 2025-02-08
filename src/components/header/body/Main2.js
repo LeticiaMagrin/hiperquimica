@@ -1,6 +1,6 @@
 import { videos, videosIa }  from "../../../Media/Media";
 // import { images } from "../../../Media/Media";
-
+import { useEffect } from 'react';
 // video Plaer
 import { DefaultPlayer as Video} from 'react-html5video';
 import 'react-html5video/dist/styles.css'
@@ -22,6 +22,10 @@ function Main2(){
     // const{
     //     SeloIA
     // } = images
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+  }, []);
 
     return(
         <>
