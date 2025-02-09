@@ -1,7 +1,13 @@
 import Headers from "../components/header/header/Headers";
 import Footer from "../components/header/footer/Footer";
+import { useEffect } from 'react';
 
 function OqueFazemos(){
+    
+    useEffect(() => {
+    window.scrollTo(0, 0);
+}, []);
+    
     return(
         <>
         <Headers/>
