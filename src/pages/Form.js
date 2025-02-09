@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import "./Form.css"
 
 function Form() {
@@ -37,7 +37,7 @@ function Form() {
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json",
-          "api-key": "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",
+          "api-key": process.env.REACT_APP_API_KEY_BREVO,
         },
         body: JSON.stringify(data),
       })
